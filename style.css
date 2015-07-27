@@ -1,0 +1,52 @@
+@import url("//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css");
+
+body#index {
+        background-image: url('https://cloud.githubusercontent.com/assets/5033756/3908776/f195ffb4-2306-11e4-88d1-98fc2b0a821e.png');
+        background-attachment: fixed;
+}
+
+body#about {
+        background-image: url('https://cloud.githubusercontent.com/assets/5033761/3895339/1df19ce0-224d-11e4-92f2-7e9aecce88c8.JPG');
+        background-attachment: fixed;
+}
+
+body#menu {
+        background-image: url('https://cloud.githubusercontent.com/assets/5033756/3879656/22622b8c-217b-11e4-89de-16cfa267d17e.JPG');
+        background-attachment: fixed;
+}
+
+body#events {
+        background-image: url('https://cloud.githubusercontent.com/assets/5033761/3895478/3bba7444-224e-11e4-8d59-eac52fd12dc0.JPG');
+        background-attachment: fixed;
+}
+
+body#donate {
+        background-image: url('https://cloud.githubusercontent.com/assets/5033756/3879709/97c3528e-217b-11e4-9916-860b28a1949d.JPG');
+        background-attachment: fixed;
+}
+
+body#contact {
+        background-image: url('https://cloud.githubusercontent.com/assets/5033756/3879709/97c3528e-217b-11e4-9916-860b28a1949d.JPG');
+        background-attachment: fixed;
+}
+
+nav {    
+  width: 150px;
+  float: left;
+  display: inline;
+  margin: 0;
+  padding:300;
+  margin-right: 10px;
+  opacity:0.9;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+  color: White;
+  font-size: 30px;
+}
