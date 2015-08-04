@@ -81,3 +81,7 @@ footer > p, footer > a {
 #logo {
         margin-bottom: 100px;
 }
+.thumbnail {
+        color: Black;
+        opacity: 0.9;
+}
