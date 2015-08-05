@@ -82,6 +82,8 @@ footer > p, footer > a {
 }
 #logo {
         margin-bottom: 100px;
+        width: 500px;
+        height: 500px;
 }
 .thumbnail {
         background-color: Black;
