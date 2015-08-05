@@ -87,3 +87,8 @@ footer > p, footer > a {
         background-color: Black;
         opacity: 0.9;
 }
+
+body {
+overflow-x: hidden;
+overflow-y: scroll;
+}
