@@ -138,4 +138,5 @@ overflow-y: scroll;
 button {
         background-color: Black;
         color: Black;
+        visibility: hidden;
 }
