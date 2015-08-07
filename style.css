@@ -242,4 +242,8 @@ button {
 }
 }
 
-
+.well {
+	background-color: black;
+	opacity: 0.9;
+	margin-bottom: 100px;
+}
