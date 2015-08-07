@@ -124,6 +124,7 @@ footer > p, footer > a {
 .thumbnail {
         background-color: Black;
         opacity: 0.9;
+        margin-bottom: 1000px;
 }
 
 body {
@@ -199,9 +200,4 @@ button {
   background: #3cb0fd;
   text-decoration: none;
 }
-.hokage {
-	width: 1000px;
-	height: 1000px;
-	background-color: Black;
-        opacity: 0.9;
-}
+
