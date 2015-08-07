@@ -65,9 +65,9 @@ p {
 
 .navbar
 {
-	max-width:10px;
-	margin-right: 10px;
-	margin-left: 10px;
+	max-width:300px;
+	margin-right: 0;
+	margin-left: 0;
 }	
 
 .navbar-nav,
@@ -88,11 +88,11 @@ nav {
         float: left;
         display: inline;
         margin: 0;
-        padding: 300px;
+        padding:300;
         margin-right: 10px;
         opacity:0.9;
         margin-top: 100px;
-        margin-left: 10px;
+        margin-left: 50px;
 }
 
 ul.nav > li > a, ul.nav > li > a:hover {
@@ -113,7 +113,6 @@ footer {
         height: 95px;
         background-color: Black;
         opacity:0.9;
-        margin-left: 0px;
 }
 
 footer > p, footer > a {
@@ -203,4 +202,44 @@ button {
   background: #3cb0fd;
   text-decoration: none;
 }
+
+@media (min-width: 768px) {
+  .navbar-collapse {
+    height: auto;
+    border-top: 0;
+    box-shadow: none;
+    max-height: none;
+    padding-left:0;
+    padding-right:0;
+  }
+  .navbar-collapse.collapse {
+    display: block !important;
+    width: auto !important;
+    padding-bottom: 0;
+    overflow: visible !important;
+  }
+  .navbar-collapse.in {
+    overflow-x: visible;
+  }
+
+.navbar
+{
+	max-width:300px;
+	margin-right: 0;
+	margin-left: 0;
+}	
+
+.navbar-nav,
+.navbar-nav > li,
+.navbar-left,
+.navbar-right,
+.navbar-header
+{float:none;}
+
+.navbar-right .dropdown-menu {left:0;right:auto;}
+.navbar-collapse .navbar-nav.navbar-right:last-child {
+    margin-right: 0;
+}
+}
+
 
