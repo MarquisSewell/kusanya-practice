@@ -110,8 +110,7 @@ footer {
         height: 95px;
         background-color: Black;
         opacity:0.9;
-        
-        
+        padding-top: 4px;
 }
 
 footer > p, footer > a {
