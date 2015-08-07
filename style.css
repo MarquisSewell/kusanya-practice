@@ -203,4 +203,6 @@ button {
 .hokage {
 	width: 50px;
 	height: 100px;
+	background-color: Black;
+        opacity: 0.9;
 }
