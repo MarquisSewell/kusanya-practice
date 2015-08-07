@@ -40,6 +40,9 @@ body#contact {
         background-repeat: no-repeat;
 }
 
+p {
+	font-color: white;
+}
 
 @media (min-width: 768px) {
   .navbar-collapse {
